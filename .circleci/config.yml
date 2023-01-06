@@ -9,7 +9,7 @@ jobs:
       - checkout
       - matlab/install
       - matlab/run-command:
-          command: disp hello world
+          command: disp('hello world')
 workflows:
   build:
     jobs:
